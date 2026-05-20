@@ -19,9 +19,6 @@ Proyecto desarrollado con AWS Lambda, API Gateway, DynamoDB y Terraform.
 - Estadísticas
 - Redirección
 
-### Frontend
-- Formulario de acortamiento
-- Visualización de estadísticas
 
 ## Infraestructura
 
