@@ -25,4 +25,5 @@ Proyecto desarrollado con AWS Lambda, API Gateway, DynamoDB y Terraform.
 Toda la infraestructura fue desplegada usando Terraform.
 
 
-Ac
+Autor
+Andres Arcila leal
