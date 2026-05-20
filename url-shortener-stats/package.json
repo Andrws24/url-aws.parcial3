@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener-stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+        "build": "esbuild src/handlers/stats.ts --bundle --platform=node --target=node22 --outfile=index.js",
+    "zip": "npm run build && bestzip lambda.zip index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1050.0",
+    "@aws-sdk/lib-dynamodb": "^3.1050.0",
+    "@types/aws-lambda": "^8.10.161"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "bestzip": "^2.2.5",
+    "esbuild": "^0.28.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
